@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		A3C595F11FBEF38400778125 /* Segment_Firebase_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C595EF1FBEF38400778125 /* Segment_Firebase_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3C595FB1FBEF3E000778125 /* SEGFirebaseIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C595F71FBEF3E000778125 /* SEGFirebaseIntegration.m */; };
-		A3C595FC1FBEF3E000778125 /* SEGFirebaseIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C595F81FBEF3E000778125 /* SEGFirebaseIntegration.h */; };
-		A3C595FD1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C595F91FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h */; };
+		A3C595FC1FBEF3E000778125 /* SEGFirebaseIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C595F81FBEF3E000778125 /* SEGFirebaseIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C595FD1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C595F91FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3C595FE1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C595FA1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.m */; };
 		A3DC224E1FBF00A6000356E4 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DC224C1FBF00A6000356E4 /* Analytics.framework */; };
 		A3DC22511FBF00D9000356E4 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DC22501FBF00D9000356E4 /* FirebaseCore.framework */; };
