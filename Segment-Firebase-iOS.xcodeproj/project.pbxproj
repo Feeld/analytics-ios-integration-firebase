@@ -18,10 +18,10 @@
 		A3C595EC1FBEF38400778125 /* Segment_Firebase_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segment_Firebase_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C595EF1FBEF38400778125 /* Segment_Firebase_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Segment_Firebase_iOS.h; sourceTree = "<group>"; };
 		A3C595F01FBEF38400778125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3C595F71FBEF3E000778125 /* SEGFirebaseIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEGFirebaseIntegration.m; path = "../../Segment-Firebase/Classes/SEGFirebaseIntegration.m"; sourceTree = "<group>"; };
-		A3C595F81FBEF3E000778125 /* SEGFirebaseIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEGFirebaseIntegration.h; path = "../../Segment-Firebase/Classes/SEGFirebaseIntegration.h"; sourceTree = "<group>"; };
-		A3C595F91FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEGFirebaseIntegrationFactory.h; path = "../../Segment-Firebase/Classes/SEGFirebaseIntegrationFactory.h"; sourceTree = "<group>"; };
-		A3C595FA1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEGFirebaseIntegrationFactory.m; path = "../../Segment-Firebase/Classes/SEGFirebaseIntegrationFactory.m"; sourceTree = "<group>"; };
+		A3C595F71FBEF3E000778125 /* SEGFirebaseIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEGFirebaseIntegration.m; path = "../Segment-Firebase/Classes/SEGFirebaseIntegration.m"; sourceTree = "<group>"; };
+		A3C595F81FBEF3E000778125 /* SEGFirebaseIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEGFirebaseIntegration.h; path = "../Segment-Firebase/Classes/SEGFirebaseIntegration.h"; sourceTree = "<group>"; };
+		A3C595F91FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEGFirebaseIntegrationFactory.h; path = "../Segment-Firebase/Classes/SEGFirebaseIntegrationFactory.h"; sourceTree = "<group>"; };
+		A3C595FA1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEGFirebaseIntegrationFactory.m; path = "../Segment-Firebase/Classes/SEGFirebaseIntegrationFactory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
