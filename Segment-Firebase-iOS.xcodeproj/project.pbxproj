@@ -12,6 +12,7 @@
 		A3C595FC1FBEF3E000778125 /* SEGFirebaseIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C595F81FBEF3E000778125 /* SEGFirebaseIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3C595FD1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C595F91FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3C595FE1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C595FA1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.m */; };
+		A3D83C9F1FC047F40054AF3E /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D83C9E1FC047F40054AF3E /* Firebase.framework */; };
 		A3DC224E1FBF00A6000356E4 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DC224C1FBF00A6000356E4 /* Analytics.framework */; };
 		A3DC22511FBF00D9000356E4 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DC22501FBF00D9000356E4 /* FirebaseCore.framework */; };
 		A3DC22531FBF00E6000356E4 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DC22521FBF00E6000356E4 /* FirebaseAnalytics.framework */; };
@@ -30,6 +31,7 @@
 		A3C595F81FBEF3E000778125 /* SEGFirebaseIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEGFirebaseIntegration.h; path = "../Segment-Firebase/Classes/SEGFirebaseIntegration.h"; sourceTree = "<group>"; };
 		A3C595F91FBEF3E000778125 /* SEGFirebaseIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEGFirebaseIntegrationFactory.h; path = "../Segment-Firebase/Classes/SEGFirebaseIntegrationFactory.h"; sourceTree = "<group>"; };
 		A3C595FA1FBEF3E000778125 /* SEGFirebaseIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEGFirebaseIntegrationFactory.m; path = "../Segment-Firebase/Classes/SEGFirebaseIntegrationFactory.m"; sourceTree = "<group>"; };
+		A3D83C9E1FC047F40054AF3E /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = Carthage/Build/iOS/Firebase.framework; sourceTree = "<group>"; };
 		A3DC224C1FBF00A6000356E4 /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analytics.framework; path = Carthage/Build/iOS/Analytics.framework; sourceTree = "<group>"; };
 		A3DC22501FBF00D9000356E4 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Carthage/Build/iOS/FirebaseCore.framework; sourceTree = "<group>"; };
 		A3DC22521FBF00E6000356E4 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3DC22531FBF00E6000356E4 /* FirebaseAnalytics.framework in Frameworks */,
+				A3D83C9F1FC047F40054AF3E /* Firebase.framework in Frameworks */,
 				A3DC224E1FBF00A6000356E4 /* Analytics.framework in Frameworks */,
 				A3DC22551FBF0116000356E4 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				A3DC22571FBF011D000356E4 /* FirebaseNanoPB.framework in Frameworks */,
@@ -92,6 +95,7 @@
 		A3DC21FF1FBEFA40000356E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3D83C9E1FC047F40054AF3E /* Firebase.framework */,
 				A3DC225C1FBF0137000356E4 /* nanopb.framework */,
 				A3DC225A1FBF012C000356E4 /* GoogleToolboxForMac.framework */,
 				A3DC22581FBF0124000356E4 /* FirebaseInstanceID.framework */,
